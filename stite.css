@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#gameField {
+	background-color: #D7EAEA;
+	margin: 0 auto ;
+	display: block;
+	border: 1px solid #4A2E2E;
+
+
+}
+body {
+		background-image: url(img/poverhnost_fon_odnotonnyy_temnyy_50697_1024x768.jpg);
+		background-size:100% 100%;
+}
+
+.score-board {
+	width: 100px;
+	height: 100px;
+	border: 5px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.container-score-board {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	margin: 200px auto 10px ;
+}
+.score-board span {
+	color: red;
+	font-size: 50px;
+}
+.explanation {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px auto 0;
+	color: #D7EAEA;
+	font-size: 20px;
+}
+.controlKey {
+	color: #0095DD;
+}
+#startButton,
+#restartButton {
+	border: 5px solid black;
+	width: 300px;
+	font-size: 80px;
+	color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#startButton:hover,
+#restartButton:hover {
+	border-color: red;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+#restartButton{
+	display: none;
+}

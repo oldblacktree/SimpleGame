@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Game</title>
+	<link rel="stylesheet" href="stite.css">
+</head>
+<body>
+	<div class="container-score-board">
+		<div  class = "score-board">
+			<span id = "player2Score">0</span>
+		</div>
+		<div  id = "startButton">
+			<span >Start</span>
+		</div>
+		<div  id = "restartButton">
+			<span >Restart</span>
+		</div>
+		<div class = "score-board">
+			<span id = "player1Score">0</span>
+		</div>
+	</div>
+	<canvas id="gameField" width = "600" height = "400"></canvas>
+	
+	<div class = "explanation">
+		<span><span class = "controlKey">A</span> - move Up <br>
+					<span class = "controlKey">D</span> - mave Down
+		</span>
+		<span><span class = "controlKey">&larr;</span> - move Up <br>
+					<span class = "controlKey">&rarr;</span> - move Down
+		</span>
+	</div>
+	<script src="common.js"></script>
+</body>
+</html>
