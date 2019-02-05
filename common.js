@@ -28,29 +28,29 @@ document.getElementById('restartButton').addEventListener('click',
 	function() {document.location.reload()}, false)
 
 function keyDownHandler(event) {
-	if(event.keyCode == 39){
+	if(event.keyCode == 38){
 		rightPressed = true;
-	} else if(event.keyCode == 37){
+	} else if(event.keyCode == 40){
 		leftPressed = true;
 	}
 
-	if(event.keyCode == 65){
+	if(event.keyCode == 87){
 		aPressed = true;
-	} else if(event.keyCode == 68){
+	} else if(event.keyCode == 83){
 		dPressed = true;
 	}
 }
 
 function keyUpHandler(event){
-	if(event.keyCode == 39){
+	if(event.keyCode == 38){
 		rightPressed = false;
-	} else if(event.keyCode == 37){
+	} else if(event.keyCode == 40){
 		leftPressed = false;
 	}
 
-	if(event.keyCode == 65){
+	if(event.keyCode == 87){
 		aPressed = false;
-	} else if(event.keyCode == 68){
+	} else if(event.keyCode == 83){
 		dPressed = false;
 	}
 }
