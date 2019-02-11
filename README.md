@@ -1,2 +1,2 @@
 # oldblacktree.github.io
-SimpleGame on canvas
+Simple Game on canvas
